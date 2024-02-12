@@ -2,8 +2,6 @@ import random
 from pathlib import Path
 
 from .s3_wrapper import IS3ClientWrapper
-
-
 def random_split_train_evaluate_test_from_extraction(extract: dict,
                                                      classes: set,
                                                      split_ratio_train: float,
@@ -14,6 +12,7 @@ def random_split_train_evaluate_test_from_extraction(extract: dict,
                                                      test_dir: str,
                                                      bucket_name: str,
                                                      s3_path: str,
+
                                                      s3_client: IS3ClientWrapper):
     if split_ratio_train + split_ratio_evaluate + split_ratio_test != 1:
         raise Exception("sum of ratio must be equal to 1")
