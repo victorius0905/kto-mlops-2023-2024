@@ -1,6 +1,8 @@
 import argparse
 import os
 import boto3
+import mlflow.keras
+
 
 from steps.s3_wrapper import S3ClientWrapper
 from steps.extraction import extraction_from_annotation_file
@@ -25,7 +27,10 @@ epochs = args.epochs
 working_dir = args.working_dir
 
 if __name__ == "__main__":
-    s3_client = S3ClientWrapper(
+    mlflow.autolog(log_models=False)
+    with mlflow.start_run():
+        print('toto')
+        s3_client = S3ClientWrapper(
         boto3.client(
             "s3",
             endpoint_url=os.environ.get("MLFLOW_S3_ENDPOINT_URL"),
@@ -64,3 +69,4 @@ if __name__ == "__main__":
     model_inference = Inference(model_path)
 
     test_model(model_inference, model_dir, test_dir)
+

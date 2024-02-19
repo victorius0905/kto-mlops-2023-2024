@@ -1,0 +1,222 @@
+[
+    {
+        "filename": "0ab50405-d0a9-47aa-98ef-41ecca16f329_page7_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9999984502792358,
+            1.8799652318820387e-13,
+            1.0
+        ]
+    },
+    {
+        "filename": "0a0e5d35-ef01-4239-af60-81f2357a6ab9_page0_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9998621940612793,
+            2.556152089994157e-08,
+            0.9999988675117493
+        ]
+    },
+    {
+        "filename": "0a7eb547-c5e6-4c22-99b7-daafc92a6278_page5_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9999978542327881,
+            2.971084860396951e-17,
+            1.0
+        ]
+    },
+    {
+        "filename": "00b521f6-90a1-4f60-954a-3bda388eb1b6_page1_index0.png",
+        "ok": false,
+        "prediction": "Cat",
+        "prediction_truth": "other",
+        "values": [
+            1.0,
+            8.733539035130618e-24,
+            1.0
+        ]
+    },
+    {
+        "filename": "0a7a1366-71be-4f55-8efd-b6adf93ea64b_page0_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9979039430618286,
+            2.0133414579959208e-07,
+            0.9999957084655762
+        ]
+    },
+    {
+        "filename": "0a7eb547-c5e6-4c22-99b7-daafc92a6278_page8_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9999998807907104,
+            3.8882591460395987e-19,
+            1.0
+        ]
+    },
+    {
+        "filename": "00c30df0-e908-4418-bbe7-2b38bfaa958a_page2_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9999997019767761,
+            1.3912773951138189e-24,
+            1.0
+        ]
+    },
+    {
+        "filename": "0a12f109-0697-4fed-86c0-bd52c080faff_page1_index0.png",
+        "ok": true,
+        "prediction": "Other",
+        "prediction_truth": "other",
+        "values": [
+            0.9999979734420776,
+            2.632734943997291e-19,
+            1.0
+        ]
+    },
+    {
+        "filename": "0ab9f620-88b5-4ce2-bee5-91791b392267_page6_index0.png",
+        "ok": false,
+        "prediction": "Cat",
+        "prediction_truth": "dog",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "0a12f109-0697-4fed-86c0-bd52c080faff_page2_index0.png",
+        "ok": false,
+        "prediction": "Cat",
+        "prediction_truth": "dog",
+        "values": [
+            1.0,
+            1.0,
+            2.804240665875313e-28
+        ]
+    },
+    {
+        "filename": "0a095c0c-4553-4d0a-a3f3-f45e43212833_page5_index0.png",
+        "ok": false,
+        "prediction": "Cat",
+        "prediction_truth": "dog",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "00f821c9-eb72-411f-90a8-6c5350785d5f_page0_index0.png",
+        "ok": false,
+        "prediction": "Cat",
+        "prediction_truth": "dog",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "0ab50405-d0a9-47aa-98ef-41ecca16f329_page1_index0.png",
+        "ok": false,
+        "prediction": "Cat",
+        "prediction_truth": "dog",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "00e4ab1c-87d9-4d01-9037-89ba958e7745_page1_index0.png",
+        "ok": true,
+        "prediction": "Cat",
+        "prediction_truth": "cat",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "00d12fc9-c7bc-4afd-8b6e-d22e46063f6b_page2_index0.png",
+        "ok": true,
+        "prediction": "Cat",
+        "prediction_truth": "cat",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "00feb76f-616a-4f96-9f1e-f72545f09129_page2_index0.png",
+        "ok": false,
+        "prediction": "Other",
+        "prediction_truth": "cat",
+        "values": [
+            0.9999987483024597,
+            1.0023527607927463e-07,
+            0.9999993443489075
+        ]
+    },
+    {
+        "filename": "00e4ab1c-87d9-4d01-9037-89ba958e7745_page6_index0.png",
+        "ok": true,
+        "prediction": "Cat",
+        "prediction_truth": "cat",
+        "values": [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "filename": "00e4ab1c-87d9-4d01-9037-89ba958e7745_page0_index0.png",
+        "ok": true,
+        "prediction": "Cat",
+        "prediction_truth": "cat",
+        "values": [
+            1.0,
+            4.116625405004015e-06,
+            7.420185223716338e-37
+        ]
+    },
+    {
+        "filename": "00e8a358-baf4-4c3f-8d3c-ba1ce5c517ae_page3_index0.png",
+        "ok": true,
+        "prediction": "Cat",
+        "prediction_truth": "cat",
+        "values": [
+            1.0,
+            1.0,
+            2.5571785785581426e-21
+        ]
+    },
+    {
+        "filename": "0a1143f8-8c89-43cc-9e31-1131ce1ef0ff_page0_index0.png",
+        "ok": true,
+        "prediction": "Cat",
+        "prediction_truth": "cat",
+        "values": [
+            1.0,
+            0.9966329336166382,
+            7.307517080334947e-07
+        ]
+    }
+]
